@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Démo - Jean Dupont</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DevPortfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Héros -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bonjour, je suis <span class="highlight">Jean Dupont</span></h1>
+                <p>Développeur Full Stack & Créateur d'expériences numériques.</p>
+                <a href="#projects" class="btn">Voir mes travaux</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Je suis un développeur passionné avec plus de 5 ans d'expérience dans la création de sites web modernes et réactifs. J'aime résoudre des problèmes complexes et apprendre de nouvelles technologies.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets (Générée par JS) -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Les projets seront injectés ici via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jean Dupont. Tous droits réservés. Site de démonstration.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
